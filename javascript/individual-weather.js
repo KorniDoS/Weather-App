@@ -43,7 +43,7 @@ const kelvinToCelsius = (degrees) => {
 
 
 const getCities = (cc) => {
-  fetch('../data/all_cities.json', {
+  fetch('../all_cities.json', {
     method: 'GET',
   })
 

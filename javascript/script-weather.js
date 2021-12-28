@@ -44,7 +44,7 @@ window.localStorage.removeItem('TEST_valiue');
 
 
 const getCountries = () =>{
-  fetch('../data/all_countries.json', {
+  fetch('../all_countries.json', {
     method: 'GET',
   })
   .then(response => response.json())
@@ -73,7 +73,7 @@ const getCountries = () =>{
 
 
 const getCities_default = (cc) =>{
-  fetch('../data/all_cities.json', {
+  fetch('../all_cities.json', {
     method: 'GET',
   })
   .then(response => response.json())
@@ -101,7 +101,7 @@ const getCities_default = (cc) =>{
 }
 
 const getCities = (motherland) => {
-  fetch('all_cities.json', {
+  fetch('../all_cities.json', {
     method: 'GET',
   })
 
@@ -195,7 +195,7 @@ const getWeather = (cityID) => {
 
       function generateHTML() {
         const html = `
-       <a href="../root/weather-app-forecast.html" class="forecast-link"  target="_BLANK" value="0">
+       <a href="../weather-app-forecast.html" class="forecast-link"  target="_BLANK" value="0">
         <div>
         <p class="test">${dayOfTheWeek(weather_array[counterVariable2])}
         </p>
@@ -213,7 +213,7 @@ const getWeather = (cityID) => {
 
 
   </a>
-<a href="../root/weather-app-forecast.html"" class="forecast-link" target="_blank" value="1">
+<a href="../weather-app-forecast.html"" class="forecast-link" target="_blank" value="1">
   <div>
         <p class="test">${dayOfTheWeek(weather_array[counterVariable2])}
         </p>
@@ -229,7 +229,7 @@ const getWeather = (cityID) => {
     </div>
 </a>
 
-<a href="../root/weather-app-forecast.html"" class="forecast-link" target="_blank" value="2">
+<a href="../weather-app-forecast.html"" class="forecast-link" target="_blank" value="2">
     <div>
         <p class="test">${dayOfTheWeek(weather_array[counterVariable2])}
         </p>
@@ -247,7 +247,7 @@ const getWeather = (cityID) => {
 </a>
 
 
-<a href="../root/weather-app-forecast.html"" class="forecast-link" target="_blank" value="3">
+<a href="../weather-app-forecast.html"" class="forecast-link" target="_blank" value="3">
     <div>
         <p class="test">${dayOfTheWeek(weather_array[counterVariable2])}
         </p>
@@ -265,7 +265,7 @@ const getWeather = (cityID) => {
 
     </a>
 
-    <a href="../root/weather-app-forecast.html"" class="forecast-link" target="_blank" value="4">
+    <a href="../weather-app-forecast.html"" class="forecast-link" target="_blank" value="4">
     <div>
         <p class="test">${dayOfTheWeek(weather_array[counterVariable2])}
         </p>
