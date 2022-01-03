@@ -7,15 +7,15 @@ html{
 }
 
 label{
-    margin-top:8px;
+    margin-top:0.5rem;
     font-size: 1.1rem;
 }
 #cities{
-    margin-top: 16px;
+    margin-top: 1rem;
 }
 #countries{
-    margin-top: 16px;
-    margin-bottom: 8px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 #hide_show{
     font-weight: bold;
@@ -24,7 +24,7 @@ label{
 
 
 body {
-    margin: 80px;
+    margin: 5rem;
     background-color: #1D5855;
     color: #ffffff;
     height: 1vmin;
@@ -39,13 +39,13 @@ body {
 
 .city-weather{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 5rem;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .container{
-    margin-top: 32px;
+    margin-top: 2rem;
 }
 
 .flex{
@@ -57,20 +57,20 @@ body {
 
 .city{
     text-align: center;
-    margin: 48px;
+    margin: 3rem;
     
 }
 
 .current-day{
    text-align: center;
-    margin-top: 16px;
+    margin-top: 1rem;
 }
 .container__labels{
     display:flex;
     justify-content: space-between;
   
     
-    width: 462.07px;
+    width: 28.876rem;
    margin-bottom: 0;
 }
 
@@ -78,17 +78,17 @@ body {
     text-align:center;
     font-size: 1rem;
    
-    height: 400px;
+    height: 25rem;
     
-    width: 224px;
+    width: 14rem;
    
-    margin: 0 2px 0 0;
+    margin: 0 0.125rem 0 0;
     background-color: hsl(177, 10%, 100%);
     /*background-color: #DCDCDC;*/
     color: black;
     
-    padding: 16px 0 16px 0;
-    border-radius: 8px;
+    padding: 1rem 0 1rem 0;
+    border-radius: 0.5rem;
    
     
     
@@ -100,7 +100,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 22.4px;
+    font-size: 1.4rem;
 }
 .details p {
     text-align:center;
@@ -122,7 +122,7 @@ body {
    /*background-color: hsl(177, 10%, 100%);*/
    width: fit-content;
    /*width: 834.55px;*/
-    border-radius: 16px;
+    border-radius: 1rem;
     height:fit-content;
     font-weight: 400;
     text-align: center;
@@ -130,7 +130,7 @@ body {
 }
 
 .forecast:hover{
-    height: 440px;
+    height: 27.5rem;
     background-color: hsl(217,50%,28%);
     color: hsl(177, 10%, 100%);
     transition: height 1s;
@@ -138,7 +138,7 @@ body {
 }
 
 .forecast:focus{
-    height: 440px;
+    height: 27.5rem;
     background-color: hsl(217,50%,28%);
     color: hsl(177, 10%, 100%);
     transition: height 1s;
@@ -151,14 +151,14 @@ body {
 }
 
 .forecast-link:hover{
-height: 450px;
+height: 28.125rem;
 transition: height 1s;
 transition-timing-function: linear;
 
 
 }
 .forecast-link:focus{
-    height: 450px;
+    height: 28.125rem;
     transition: height 1s;
     transition-timing-function: linear;
     
@@ -170,24 +170,24 @@ transition-timing-function: linear;
 table{
     display: flex;
     font-weight: 400;
-    border-spacing: 8px;    
+    border-spacing: 0.5rem;    
     flex-direction: row;
     justify-content: flex-start;
-    gap: 3.2px;
+    gap: 0.2rem;
     border-collapse: separate;
     height: auto;
-    padding: 4.8px;
+    padding: 0.3rem;
     
 }
 
 
 tbody td{
     
-    padding: 11.2px;
+    padding: 0.7rem;
     color:black;
 }
 thead th{
-    padding: 11.2px;
+    padding: 0.7rem;
     color:black;
     font-weight: 600;
 }
@@ -195,10 +195,10 @@ thead th{
 .info img{
     position: relative;
    
-    width: 27.2px;
-    height: 27.2px;
-    margin-top: 11.2px;
-    margin-left: 11.2px;
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-top: 0.7rem;
+    margin-left: 0.7rem;
 
 }
 .info img::before{
@@ -237,9 +237,9 @@ thead th{
     }
     .info img {
         position: relative;
-        width: 43.2px;
-        height: 43.2px;
-        margin-top: 11.2px;
+        width: 2.7rem;
+        height: 2.7rem;
+        margin-top: 0.7rem;
         margin-left: 0;
     }
     tr img{
@@ -265,7 +265,7 @@ thead th{
         order: 1;
     }
    thead th{
-       gap: 16px;
+       gap: 1rem;
    }
     tbody{
         display: flex;
@@ -291,49 +291,49 @@ thead th{
         align-items: center;
         text-align: center;
         
-        height: 345.6px;
+        height: 21.6rem;
         color: black;
         border-right: 2px solid black;
         
         /*flex: 2;*/
         margin-bottom:0;
-       padding-right: 10px;
+       padding-right: 0.625rem;
 
         
     }
 
     #th0{
-        padding-right: 7.2px;
-        padding-left: 4.2px;
+        padding-right: 0.45rem;
+        padding-left: 0.263rem;
     }
    #th1{
-        padding-right: 7.2px;
-        padding-left:16.2px;
+        padding-right: 0.45rem;
+        padding-left: 1.013rem;
     }
     #th2{
-        padding-right: 4.2px;
-        padding-left: 14.2px;
+        padding-right: 0.263rem;
+        padding-left: 0.888rem;
     }
     #th3{
         padding-right: 0;
-        padding-left: 14.2px;
+        padding-left: 0.888rem;
     }
     #th4{
-        padding-left: 17.2px;
+        padding-left: 1.075rem;
         margin-right: 0;
-        padding-right: 8px;
+        padding-right: 0.5rem;
 
     }
     #th5{
-        padding-right: 12px;
-        padding-left: 8px;
+        padding-right: 0.75rem;
+        padding-left: 0.5rem;
     }
    #th6{
         padding-right: 0;
-        padding-left: 8px;
+        padding-left: 0.5rem;
     }
     #th7{
-        padding-right: 7.2px;
+        padding-right: 0.45rem;
     }
     /*
     
@@ -345,7 +345,7 @@ thead th{
     }
     */
     .container__labels > label:nth-child(2){
-        padding-top: 7px;
+        padding-top: 0.438rem;
     }
 /*
     th:last-child{
@@ -380,14 +380,14 @@ thead th{
 
 @media only screen and (max-width: 1160px){
     .forecast{
-        width: 160px;
+        width: 10rem;
        
     }
 }
 @media only screen and (max-width: 830px){
     .forecast{
-        width: 128px;
-        height: 448px;
+        width: 8rem;
+        height: 28rem;
     }
 }
 
@@ -409,12 +409,12 @@ thead th{
         height: auto;
     }
     .forecast{
-        padding-top: 16px;
-        padding-bottom: 32px;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
         height: auto;
         margin: auto;
         width: auto;
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
     }
 
     .forecast-flex section {
@@ -430,7 +430,7 @@ thead th{
         
     }
     .container__labels{
-        width: 390.07px;
+        width: 24.379rem;
     }
  
 }
@@ -466,10 +466,10 @@ thead th{
 
     }
     .container{
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
     }
     .form-select{
-        margin-top: 32px;
+        margin-top: 2rem;
         
     }
 }
@@ -479,25 +479,25 @@ thead th{
         font-size: 1rem;
     }
     .info img{
-        width: 16px;
-        height: 16px;
-        margin-top: 16px;
-        margin-bottom: 9.6px;
+        width: 1rem;
+        height: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 0.6rem;
 
 
     }
     .container__labels{
-        width: 353.27px;
+        width: 22.079rem;
     }
 }
 @media only screen and (min-width: 320px ){
   
     .container{
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
         
     }
     .form-select{
-        margin-top: 32px;
+        margin-top: 2rem;
         
     }
 }
@@ -507,9 +507,9 @@ thead th{
  
     
     .container{
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
     }
     .form-select{
-        margin-top: 32px;
+        margin-top: 2rem;
     }
 }
