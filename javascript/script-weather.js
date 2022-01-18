@@ -1,3 +1,9 @@
+window.addEventListener('DOMContentLoaded', (event) => {
+  fetch('../all-cities.json',{
+    method: 'GET'
+  })
+})
+
 
 const key = "f8719ca40261e1669ea3a27ecef961ec"; //Our key to access the data from Weather API
 
@@ -344,13 +350,47 @@ getCities(window.localStorage.getItem('COUNTRY_CODE'));
 
 
 
-delay(function(){
- 
 
-  getWeather(options[0].value);
-  localStorage.setItem('CITY_ID', options[0].value);
-   
-}, 1850 );
+const deviceType = () => {
+  const ua = navigator.userAgent;
+  if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+    delay(function(){
+
+
+      getWeather(LIST);
+      localStorage.setItem('CITY_ID', LIST);
+       
+    }, 5000 );
+    console.log("tablet");
+      return "tablet";
+  }
+  else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+    delay(function(){
+
+
+      getWeather(LIST);
+      localStorage.setItem('CITY_ID', LIST);
+       
+    }, 8000 );
+      console.log("mobile");
+      return "mobile";
+  }
+  console.log("desktop");
+  delay(function(){
+
+
+    getWeather(LIST);
+    localStorage.setItem('CITY_ID', LIST);
+     
+  }, 2000 );
+  return "desktop";
+  
+
+
+};
+deviceType();
+
+
  
 
   })
