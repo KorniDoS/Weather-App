@@ -1,8 +1,3 @@
-window.addEventListener('DOMContentLoaded', (event) => {
-  fetch('../all_cities.json',{
-    method: 'GET'
-  })
-})
 
 
 const key = "f8719ca40261e1669ea3a27ecef961ec"; //Our key to access the data from Weather API
