@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-  fetch('../all-cities.json',{
+  fetch('../all_cities.json',{
     method: 'GET'
   })
 })
