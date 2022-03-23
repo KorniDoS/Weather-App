@@ -244,6 +244,11 @@ padding-bottom: 0.5rem;
     #hide_show2{
         display:none;
     }
+	.info{
+        display: flex;
+        flex-flow: row nowrap;
+        
+    }
 }
 
     
